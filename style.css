@@ -75,6 +75,11 @@ img {
 /* ! MOBILE  */
 
 @media screen and (max-width:420px) {
+
+  body{
+    margin: 0; 
+  }
+
   .row{
     width: 100%;
     /* flex ? per togliere display table and clearfix? */
@@ -99,6 +104,7 @@ img {
   #lezioni .row>.right {
   width: 100%;
   float: none;
+  
   }
 
 
@@ -108,6 +114,7 @@ img {
   #steps .row>.right {
   float: none;
   width: 100%;
+  margin-bottom:10px ;
   }
 
 
@@ -126,12 +133,14 @@ img {
     margin: 0;
   }
 
-  #why{
+  #steps{
     background-color: white;
+    padding: 10px;
   }
 
   #lezioni,#why{
     background-color: #f2f2cd;
+    padding: 10px;
   }
   
 }
