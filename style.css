@@ -72,6 +72,91 @@ img {
   clear: both;
 }
 
+/* !Tablet */
+@media screen and (min-width: 421px) and (max-width:992px) {
+
+  /* RESET */
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    margin: 0; 
+  }
+
+  img{
+    width: 50%;
+    object-fit: contain;
+  }
+
+  #why .row img {
+    background-color: #428bca;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    padding: 30px;
+    margin-bottom:10px;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-top: .3px solid rgb(42, 42, 87);
+    border-bottom: .3px solid rgb(42, 42, 87);
+  }
+
+  /* BLOCCO LEZIONI */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: 40% ;
+  margin:0 5%;
+  float: left;
+
+}
+
+/* BLOCCO STEPS */ 
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  float: left;
+  width: calc((100% / 3) - 10%);
+  margin:0 5%;
+}
+
+/* blocco Why */
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 50%;
+  height: 50%;
+  margin: 50px auto;
+  padding: 40px;
+  border: 1px solid rgb(177, 214, 247);
+  border-radius: 5%;
+}
+
+.row > h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.row h3{
+  margin:0 0 10px;
+  text-transform: uppercase;
+}
+
+#lezioni,#steps,#why{
+  background-color:aliceblue;
+}
+
+
+}
+
+
+
 /* ! MOBILE  */
 
 @media screen and (max-width:420px) {
@@ -82,7 +167,6 @@ img {
 
   .row{
     width: 100%;
-    /* flex ? per togliere display table and clearfix? */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,7 +201,7 @@ img {
   margin-bottom:10px ;
   }
 
-  
+
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
