@@ -71,3 +71,17 @@ img {
 .clear {
   clear: both;
 }
+
+/* ! MOBILE  */
+
+@media screen and (max-width:480px) {
+
+  .row{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
