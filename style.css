@@ -74,9 +74,10 @@ img {
 
 /* ! MOBILE  */
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:420px) {
   .row{
     width: 100vw;
+    /* flex ? */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,8 +95,6 @@ img {
   }
 
 
-
-
   /* BLOCCO STEPS */
   #steps .row>.left,
   #steps .row>.central,
@@ -111,8 +110,13 @@ img {
   width: 100vw;
   margin-top: 80px;
   }
+
   .row > h1 {
     text-align: center;
+  }
+
+  #why{
+    background-color: white;
   }
 
   #lezioni,#why{
