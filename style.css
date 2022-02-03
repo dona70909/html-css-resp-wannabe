@@ -76,22 +76,29 @@ img {
 
 @media screen and (max-width:420px) {
   .row{
-    width: 100vw;
-    /* flex ? */
+    width: 100%;
+    /* flex ? per togliere display table and clearfix? */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:0;
-    box-sizing: border-box;
-    padding: 0;
+
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
     
+  }
+
+  img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
   }
 
   #lezioni .row>.left,
   #lezioni .row>.right {
-  width: 100vw;
-  float: left;
+  width: 100%;
+  float: none;
   }
 
 
@@ -99,20 +106,24 @@ img {
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-  float: left;
-  width: 100vw;
+  float: none;
+  width: 100%;
   }
 
 
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-  width: 100vw;
-  margin-top: 80px;
+  width: 100%;
+  margin-top:0;
   }
 
   .row > h1 {
     text-align: center;
+  }
+
+  .row h3{
+    margin: 0;
   }
 
   #why{
