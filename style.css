@@ -100,6 +100,7 @@ img {
     margin-bottom:10px;
   }
 
+
   .row {
     width: 100%;
     margin: 0 auto;
@@ -138,6 +139,13 @@ img {
   border-radius: 5%;
 }
 
+#why .first>img,
+#why .second>img,
+#why .third>img{
+  object-fit: contain;
+  width: 80%;
+}
+
 .row > h1 {
   text-align: center;
   text-transform: uppercase;
@@ -154,7 +162,6 @@ img {
 
 
 }
-
 
 
 /* ! MOBILE  */
