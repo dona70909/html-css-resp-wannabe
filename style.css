@@ -81,22 +81,42 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 0;
+    margin:0;
     box-sizing: border-box;
     padding: 0;
+    
   }
 
-  .row img{
-    width: 100%;
-    object-fit: contain;
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: 100vw;
+  float: left;
   }
 
+
+
+
+  /* BLOCCO STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  float: left;
+  width: 100vw;
+  }
+
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  width: 100vw;
+  margin-top: 80px;
+  }
   .row > h1 {
     text-align: center;
   }
 
   #lezioni,#why{
-    background-color: yellow;
+    background-color: #f2f2cd;
   }
   
 }
