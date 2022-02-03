@@ -135,7 +135,7 @@ img {
   height: 50%;
   margin: 50px auto;
   padding: 40px;
-  border: 1px solid rgb(177, 214, 247);
+  border: 1px solid #bebe6a;
   border-radius: 5%;
 }
 
@@ -156,8 +156,15 @@ img {
   text-transform: uppercase;
 }
 
-#lezioni,#steps,#why{
-  background-color:aliceblue;
+
+#steps{
+  background-color: white;
+  
+}
+
+#lezioni,#why{
+  background-color: #f2f2cd;
+  
 }
 
 
